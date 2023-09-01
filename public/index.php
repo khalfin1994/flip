@@ -11,5 +11,5 @@ $password = 'Warlord@94$';
 
 $pdo = new PDO("mysql:host=$host;dbname=$dbName", $username, $password);
 
-$csv = new CsvManager(__DIR__ . '/../vendor/users.csv');
+$csv = new CsvManager(__DIR__ . '/../storage/users.csv');
 $csv->csvToDb($pdo);
