@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace flip;
 
-class CsvManager
+final class CsvManager
 {
     private string $csvFile;
 
@@ -40,7 +40,7 @@ SQL;
 
             fclose($file);
 
-            echo 'Данные успешно импортированы.';
+            echo 'Данные успешно импортированы в базу данных.';
         } else {
             echo 'Не удалось открыть файл CSV.';
         }
