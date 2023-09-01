@@ -1,6 +1,6 @@
 <?php
 
-use flip\CsvManager;
+use flip\src\CsvManager;
 
 require __DIR__ . '/../src/CsvManager.php';
 

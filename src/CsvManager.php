@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace flip;
+namespace flip\src;
 
 final class CsvManager
 {
