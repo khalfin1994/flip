@@ -5,9 +5,9 @@ use flip\src\CsvManager;
 require __DIR__ . '/../src/CsvManager.php';
 
 $host = '127.0.0.1';
-$dbName = 'flip';
-$username = 'root';
-$password = 'Warlord@94$';
+$dbName = 'your_db_name';
+$username = 'your_root_username';
+$password = 'your_password';
 
 
 try {
